@@ -1,0 +1,118 @@
+/*Paleta de cores 
+
+#29A0B1
+#FF3D33
+#FBC00E
+#DAE7DD
+
+*/
+
+/* Tags Gerais */
+
+body{    
+    font-family: 'Quicksand', sans-serif;   
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+/* Header */
+
+header #titulo{
+    color: #FF3D33;
+    margin-right: 60px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+
+header .menu{
+    margin: 0px;   
+    text-align: right; 
+}
+
+header .buscar{
+    text-align: center; 
+    margin-right:200px;
+}
+
+header #cesta{    
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #FBC00E;
+    font-size: 20px;
+}
+
+/* Banner */
+
+#banner .img-wrapper {   
+    z-index:1;
+    width: 100%;
+   }
+  
+#banner .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#banner #botao-banner{   
+    padding: 10px;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+/* Produtos */
+
+#produtos{
+    padding-top: 100px;
+}
+
+#produtos .preco{
+    color: #29A0B1;
+    font-size: 30px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #29A0B1;  
+    color: #DAE7DD ;
+}
+
+footer #ilustracoes{
+    font-size: 15px;      
+    text-align: center;  
+}
+
+footer .contato-icon{ 
+    margin: 15px;       
+    font-size: 25px;  
+}
+
+footer .contato-icon:hover{
+    color:#FBC00E;    
+}
+
+footer #copyright{
+    font-size: 15px;  
+    text-align: center;    
+}
+
+
+/*Responsivo */
+
+@media (max-width: 768px) {
+    #banner #botao-banner{   
+        padding: 5px;
+        margin-top: 70px;
+        font-size: 10px;
+    }
+} 
